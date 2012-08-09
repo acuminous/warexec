@@ -6,7 +6,7 @@ WarExec makes existing war file executable by updating the war file with a an em
 1. Install [gradle](http://www.gradle.org)
 2. Clone WarExec
 3. Open a command prompt in the WarExec root directory
-4. type 'gradle executable -Pwar=path-to-war-file
+4. type 'gradle executable -Pwar=/path/to/warfile.war
 
 To run the war file type 'java -jar <path-to-war-file>'
 
