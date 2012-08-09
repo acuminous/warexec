@@ -47,7 +47,7 @@ task executable(dependsOn: [':clean', ':compileJava']) << {
 	}
 	
 	String warFile = file.name
-	if (!warFile.endsWith('\\.war')) {
+	if (!warFile.endsWith('.war')) {
 		ant.fail(message: "${war} does not appear to be a war file")
 	}
 	
