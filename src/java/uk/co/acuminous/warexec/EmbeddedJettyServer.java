@@ -2,7 +2,7 @@
  * See http://stackoverflow.com/questions/2458440/executable-war-file-that-starts-jetty-without-maven
  */
 
-package uk.co.acuminous.warexec.util;
+package uk.co.acuminous.warexec;
 
 import org.mortbay.jetty.Server;
 import org.mortbay.jetty.servlet.*;
