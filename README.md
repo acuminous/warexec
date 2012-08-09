@@ -8,7 +8,7 @@ WarExec makes existing war file executable by updating the war file with a an em
 3. Open a command prompt in the WarExec root directory
 4. type 'gradle executable -Pwar=/path/to/warfile.war
 
-To run the war file type 'java -jar <path-to-war-file>'
+To run the war file type 'java -jar &lt;path-to-war-file&gt;'
 
 The server will default to http://localhost:8080. The port can be overiden by specifying '-Dport=9090'
 
