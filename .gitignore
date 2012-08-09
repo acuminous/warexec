@@ -1,0 +1,8 @@
+/.idea
+/.settings
+/.gradle
+/target-eclipse
+/.DS_Store
+/bin
+/build
+*.log
